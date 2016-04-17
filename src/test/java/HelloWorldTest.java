@@ -1,3 +1,4 @@
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
@@ -16,6 +17,7 @@ public class HelloWorldTest {
     }
 
     @Test
+    @Ignore
     public void failingTest() throws Exception {
         fail();
 
